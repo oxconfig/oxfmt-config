@@ -1,0 +1,43 @@
+{
+    "name": "oxfmt-config",
+    "type": "module",
+    "version": "0.0.0",
+    "packageManager": "pnpm@10.15.1",
+    "description": "An presumptuous ox format configuration",
+    "author": "lonewolfyx <olddrivero.king@qq.com>",
+    "license": "MIT",
+    "homepage": "https://github.com/oxconfig/oxfmt-config",
+    "bugs": {
+        "url": "https://github.com/oxconfig/oxfmt-config/issues"
+    },
+    "keywords": [
+        "oxc",
+        "oxfmt"
+    ],
+    "exports": {
+        "./package.json": "./package.json"
+    },
+    "main": "oxfmt.config.json",
+    "files": [
+        "oxfmt.config.json"
+    ],
+    "scripts": {
+        "lint": "eslint",
+        "lint:fix": "eslint --fix",
+        "prepublishOnly": "pnpm build",
+        "prepare": "simple-git-hooks"
+    },
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org",
+        "access": "public"
+    },
+    "devDependencies": {
+        "lint-staged": "^16.2.7",
+        "oxfmt": "^0.27.0",
+        "picocolors": "^1.1.1",
+        "simple-git-hooks": "^2.13.1"
+    },
+    "simple-git-hooks": {
+        "commit-msg": "node scripts/verify-commit.js"
+    }
+}
