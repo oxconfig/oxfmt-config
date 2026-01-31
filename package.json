@@ -3,7 +3,7 @@
     "type": "module",
     "version": "0.0.0",
     "packageManager": "pnpm@10.15.1",
-    "description": "An presumptuous ox format configuration",
+    "description": "An presumptuous oxfmt preset configuration",
     "author": "lonewolfyx <olddrivero.king@qq.com>",
     "license": "MIT",
     "homepage": "https://github.com/oxconfig/oxfmt-config",
