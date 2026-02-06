@@ -8,6 +8,11 @@
     "useTabs": true,
     "singleAttributePerLine": true,
     "trailingComma": "all",
+    "ignorePatterns": [
+        "node_modules/",
+        "dist/",
+        "pnpm-lock.yaml"
+    ],
     "overrides": [
         {
             "files": [
