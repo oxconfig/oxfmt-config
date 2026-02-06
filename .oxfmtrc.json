@@ -25,6 +25,14 @@
             "options": {
                 "tabWidth": 4
             }
+        },
+        {
+            "files": [
+                "*.md"
+            ],
+            "options": {
+                "printWidth": 320
+            }
         }
     ]
 }
